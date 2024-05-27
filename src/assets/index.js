@@ -25,11 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import nonceblox from "./company/nonceblox.jpg";
-import hubinit from "./company/hubinit.jpg";
+import spark from "./company/spark.png";
+import FTE from "./company/FTE.png";
 import self from "./company/self.jpg";
 import sawaliram from "./company/sawaliram.png";
 import wipiway from "./company/wipiway.jpg";
+import viatris from "./company/viatris.jpg";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -84,9 +86,10 @@ export {
 	carrent,
 	jobit,
 	tripguide,
-	nonceblox,
-	hubinit,
+	spark,
+	FTE,
 	self,
 	sawaliram,
-	wipiway
+	wipiway,
+	viatris,
 };

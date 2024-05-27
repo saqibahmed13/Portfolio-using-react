@@ -20,8 +20,8 @@ import {
 	stock,
 	tripguide,
 	threejs,
-	nonceblox,
-	hubinit,
+	spark,
+	FTE,
 	self,
 	sawaliram,
 	aman,
@@ -30,7 +30,8 @@ import {
 	udemy,
 	facebook,
 	car,
-	wipiway
+	viatris,
+
 } from "../assets";
 
 export const navLinks = [
@@ -61,10 +62,6 @@ const services = [
 		title: "Backend Developer",
 		icon: backend,
 	},
-	{
-		title: "Web3 Developer",
-		icon: creator,
-	},
 ];
 
 const technologies = [
@@ -79,10 +76,6 @@ const technologies = [
 	{
 		name: "JavaScript",
 		icon: javascript,
-	},
-	{
-		name: "TypeScript",
-		icon: typescript,
 	},
 	{
 		name: "React JS",
@@ -105,10 +98,6 @@ const technologies = [
 		icon: mongodb,
 	},
 	{
-		name: "Three JS",
-		icon: threejs,
-	},
-	{
 		name: "git",
 		icon: git,
 	},
@@ -116,19 +105,16 @@ const technologies = [
 		name: "figma",
 		icon: figma,
 	},
-	{
-		name: "docker",
-		icon: docker,
-	},
+
 ];
 
 const experiences = [
 	{
-		title: "Full Stack developer",
-		company_name: "Eklavya Foundation",
-		icon: sawaliram,
+		title: "Software Engineer",
+		company_name: "Viatris",
+		icon: viatris,
 		iconBg: "#383E56",
-		date: "Mar 2021 - Dec 2021",
+		date: "Aug 2022 - Present",
 		points: [
 			"Developed and designed a full-stack website for this Education Institute using HTML, CSS, Bootsrtap5, Javascript, and Python(Django).",
 			"Implemented LMS to conduct Tests/Quizzes, with a developed admin dashboard for this E-platform with an increase in the efficiency of 15-20%.",
@@ -137,9 +123,9 @@ const experiences = [
 		],
 	},
 	{
-		title: "Full Stack Developer",
-		company_name: "HubinIT",
-		icon: hubinit,
+		title: "Software Intern",
+		company_name: "Future Ready Talent",
+		icon: FTE,
 		iconBg: "#E6DEDD",
 		date: "Dec 2021 - May 2022",
 		points: [
@@ -150,9 +136,9 @@ const experiences = [
 		],
 	},
 	{
-		title: "Full Stack Developer",
-		company_name: "Nonceblox Pvt Ltd",
-		icon: nonceblox,
+		title: "Front End Developer",
+		company_name: "The Spark Foundation",
+		icon: spark,
 		iconBg: "#383E56",
 		date: "May 2022 - Oct 2022",
 		points: [
@@ -160,31 +146,6 @@ const experiences = [
 			"Worked on implementation of storing NFTS and contract address and also worked on debugging and Error Handling.",
 			"Implemented most of the Frontend Reusable component from scratch for Seed Project with State management as redux-toolkit with a 20% increase in efficiency, SEO, performance, and accessibility with a score of at least greater than 90.",
 			"Worked on the backend for CRUD operations of NFTs, and contract addresses, worked on debugging and Error Handling.",
-		],
-	},
-	{
-		title: "Full Stack Developer",
-		company_name: "Self Employed",
-		icon: self,
-		iconBg: "#383E56",
-		date: "Oct 2022 - Feb 2023",
-		points: [
-			"Developed End to End Ecommerce Website for a client with all the functionalities like Buy/Sell with admin dashboard.",
-			"Developed an NFT Marketplace with Minting. Staking and Unstaking and storing tokens with its Meta data in the backend.",
-			"Implemented these and some more projects in Tech Stack Like MERN Stack with Typescript, AWS, and Docker with quality code.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-		],
-	},{
-		title: "Full Stack Developer",
-		company_name: "Wipiway",
-		icon: wipiway,
-		iconBg: "#383E56",
-		date: "Apr 2023 - Present",
-		points: [
-			"Developing Decentralized Social Platform with Biconomy with Farcaster integration",
-			"Working on Web3 Marketplaces such as Real Nifty and worked on licensing of NFTs with MERN Stack.",
-			"Implementing Solidity Auditing project in Tech Stack Like MERN Stack with Typescript, AWS, and Docker with quality code.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
 		],
 	},
 ];
